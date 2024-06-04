@@ -1,0 +1,86 @@
+/* Estilos para el contenedor del detalle del producto */
+.detalle-producto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para el encabezado del producto (nombre y precio) */
+.producto-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.titulo-producto {
+    font-size: 24px;
+    color: #a91313;
+    margin: 0;
+}
+
+.precio-producto {
+    font-size: 20px;
+    color: #00c;
+}
+
+/* Estilos para la imagen del producto */
+.imagen-producto {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la descripción del producto */
+.descripcion-producto {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+
+
+/* Estilos para el contenedor del detalle del producto */
+.detalle-producto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para el contenedor de la imagen y el contenido */
+.imagen-y-contenido {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilos para la imagen del producto */
+.imagen-producto {
+    max-width: 200px; /*200px*/
+    height: auto;
+    margin-right: 30px;
+}
+
+/* Estilos para el contenido del producto */
+.contenido-producto {
+    flex: 1; /* Toma el espacio restante */
+}
+
+.titulo-producto {
+    font-size: 24px;
+    color: #0c1d43;
+    margin: 0;
+}
+
+.precio-producto {
+    font-size: 20px;
+    color: #00c;
+}
+
+.descripcion-producto {
+    font-size: 16px;
+    color: #0a0606;
+    margin-top: 10px;
+}

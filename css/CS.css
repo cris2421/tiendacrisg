@@ -1,0 +1,127 @@
+
+/* Estilos generales */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(300, 10%, 96%, 0.866); /* Fondo azul claro */
+    color: #0e0e0e;
+}
+
+/* Contenedor principal */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120%;
+    height: 110%;
+}
+
+/* Sección de contacto */
+.contact-section {
+    max-width: 500px; /* Ancho reducido */
+    padding: 20px; /* Padding ajustado */
+    border-radius: 10px;
+    background-color: transparent; /* Fondo blanco */
+    box-shadow: 0 8px 16px rgba(14, 13, 13, 0.1);
+    text-align: center;
+}
+
+/* Títulos */
+h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #070607; /* Verde oscuro */
+}
+
+h3 {
+    margin-top: 30px;
+    font-size: 1.2em;
+    color: #f5f3f3;
+}
+
+/* Formularios */
+form {
+    display: grid;
+    grid-gap: 15px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ea3fae;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #edf4f3; /* Verde oscuro */
+    outline: none;
+    box-shadow: 0 0 5px rgba(219, 46, 204, 0.5);
+}
+
+button {
+    background-color: #f02ff3; /* Verde oscuro */
+    color: rgb(9, 9, 9);
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #f11ecb; /* Verde más oscuro */
+}
+
+/* Información de contacto y redes sociales */
+.contact-info, .social-media, .map, .faqs {
+    margin-top: 15px;
+}
+
+.contact-info p, .social-media a, .faqs p {
+    margin: 8px 0;
+}
+
+.social-media a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #e330fb; /* Verde oscuro */
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #ee2af5; /* Verde más oscuro */
+}
+
+/* Mapa */
+.map iframe {
+    width: 100%;
+    height: 250px; /* Altura reducida */
+    border: 0;
+    border-radius: 5px;
+}
+
+/* Preguntas Frecuentes */
+.faqs p {
+    margin: 8px 0;
+}
+
+.faqs p strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #000000; /* Verde oscuro */
+}
+
+
+
+ 
